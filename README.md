@@ -27,3 +27,8 @@
     <td><img src="https://api.apidog.com/api/v1/projects/374432/resources/338816/image-preview" width=270 height=480></td>
   </tr>
  </table>
+
+ # Download 
+  Add the following in build.gralde 
+
+``` implementation 'io.github.Bill24CoLtd:b24paymentsdk:1.0.5' ```
