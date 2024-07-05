@@ -28,7 +28,17 @@
   </tr>
  </table>
 
- # Download 
-  Add the following in build.gralde 
+ # How to use : 
+ - add file b24paymentsdk.arr to your project- 
+ - in build.gradle add some dependency
+     - implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+     - implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+     - implementation 'com.squareup.picasso:picasso:2.8'
+     - implementation 'com.google.code.gson:gson:2.10.1'
+     - implementation 'com.squareup.okhttp3:logging-interceptor:4.11.0'
+     - implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.28'
+     - implementation  ('io.socket:socket.io-client:2.1.0') {
+        // excluding org.json which is provided by Android
+        exclude group: 'org.json', module: 'json'
 
-``` implementation 'io.github.Bill24CoLtd:b24paymentsdk:1.0.5' ```
+    }
